@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vánoce – úvod</title>
+  <meta name="description" content="Vánoce: stromeček a zajímavosti o svátcích.">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="snow" aria-hidden="true"></div>
+
+  <header class="hlavicka">
+    <a class="logo" href="index.html">🎄 Vánoce</a>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="aktivni" aria-current="page">Úvod</a></li>
+        <li><a href="odpocet.html">Odpočet</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Veselé Vánoce!</h1>
+        <p>Vánoce jsou svátky klidu, rodiny a tradic. Prohlédněte si stromeček,
+           přečtěte si pár zajímavostí a zjistěte, kolik zbývá do Štědrého dne.</p>
+        <a class="tlacitko" href="odpocet.html">Spustit odpočet →</a>
+      </div>
+
+      <svg class="stromek" viewBox="0 0 300 400" role="img" aria-label="Ozdobený vánoční stromek s hvězdou">
+        <polygon class="hvezda" points="150,10 158,34 184,34 163,49 171,74 150,59 129,74 137,49 116,34 142,34"/>
+        <polygon fill="#1b7a3d" points="150,50 235,150 65,150"/>
+        <polygon fill="#22924a" points="150,100 255,230 45,230"/>
+        <polygon fill="#2aab58" points="150,170 275,320 25,320"/>
+        <rect x="132" y="320" width="36" height="55" fill="#7a4a21"/>
+        <circle class="ozdoba o1" cx="150" cy="120" r="8"/>
+        <circle class="ozdoba o2" cx="115" cy="190" r="9"/>
+        <circle class="ozdoba o3" cx="185" cy="205" r="9"/>
+        <circle class="ozdoba o2" cx="90" cy="280" r="10"/>
+        <circle class="ozdoba o1" cx="150" cy="265" r="10"/>
+        <circle class="ozdoba o3" cx="210" cy="285" r="10"/>
+      </svg>
+    </section>
+
+    <section class="obsah">
+      <h2>Víte, že…</h2>
+      <div class="karty">
+        <article class="karta">
+          <h3>🎁 Štědrý den</h3>
+          <p>V Česku slavíme hlavně 24. prosince večer. Dárky nosí Ježíšek a rozdávají se po štědrovečerní večeři.</p>
+        </article>
+        <article class="karta">
+          <h3>🐟 Kapr a salát</h3>
+          <p>Tradičním českým štědrovečerním jídlem je smažený kapr s bramborovým salátem.</p>
+        </article>
+        <article class="karta">
+          <h3>🌲 Stromeček</h3>
+          <p>Zdobený vánoční strom se v českých domovech rozšířil v 19. století. Dnes ho zdobíme kuličkami, světýlky a hvězdou.</p>
+        </article>
+        <article class="karta">
+          <h3>🔔 Koledy</h3>
+          <p>Zpívání koled patří k Vánocům odnepaměti. Jednou z nejznámějších je „Tichá noc“.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="paticka">&copy; 2026 Vánoční web · školní projekt</footer>
+</body>
+</html>
